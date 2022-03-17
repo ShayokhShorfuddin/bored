@@ -45,7 +45,7 @@ getAgesWithCountry() // For grabbing age data of a list of names but providing a
 
 ## Code Example
 
-A piece of code that uses getAge() -
+A piece of code that uses getActivityFromType()...
 
 ```dart
 
