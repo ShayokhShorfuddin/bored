@@ -10,37 +10,11 @@ https://www.boredapi.com/
 
 ## How To Use
 
-`flutter_agify` offers 4 functions to grab information from  Agify.io API response. They are -
- 
-
-```dart
-getAge() // For grabbing age data of 1 name. "name" parameter is required and "apiKey" parameter is optional.
-```
-```dart
-getAges() // For grabbing age data of a list of names. "names" parameter is required and "apiKey" parameter is optional.
-```
-```dart
-getAgeWithCountry() // For grabbing age data of 1 name but providing a country. "name" and "country" parameter is required and "apiKey" parameter is optional.
-```
-```dart
-getAgesWithCountry() // For grabbing age data of a list of names but providing a country. "names" and "country" parameter is required and "apiKey" parameter is optional.
-```
-
-* If you need to check more than 1000 names/day, you need to obtain an API key. For getting API key, visit https://store.agify.io/
-
-* **NOTE:** If you are about to use ```getAgeWithCountry()``` or ```getAgesWithCountry()```, keep in mind that the Agify.io api follows `ISO 3166-1 alpha-2` for country codes. See https://agify.io/our-data for a list of all supported countries. :]
-
+very soon :)
 
 ## Return Types
 
-* ```getAge()``` returns a **Map** that looks like this - ```{"Name": _name, "Age": age, "Count": count}``` or it will throw an error if the API responded with an error.
-&nbsp;
-* ```getAges()``` returns ```jsonDecode(apiResponse.body)``` which is a **List** of **Maps** which contains the age data of every single person name you provided to the API as List. It can also throw an error if the API responded with an error.
-&nbsp;
-* ```getAgeWithCountry()``` returns a **Map** that looks like this - ```{"Name": _name, "Age": age, "Count": count, "Country": _country};``` or it will throw an error if the API responded with an error.
-&nbsp;
-* ```getAgesWithCountry()``` returns ```jsonDecode(apiResponse.body)``` which is a **List** of **Maps** which contains the age data of every single person name you provided to the API as List. It can also throw an error if the API responded with an error.
-
+very soon <3
 
 ## Code Example
 
