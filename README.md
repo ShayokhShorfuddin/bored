@@ -48,6 +48,7 @@ getAgesWithCountry() // For grabbing age data of a list of names but providing a
 A piece of code that uses getAge() -
 
 ```dart
+
 class homepage extends StatefulWidget {
   const homepage({Key? key}) : super(key: key);
 
@@ -56,37 +57,31 @@ class homepage extends StatefulWidget {
 }
 
 class _homepageState extends State<homepage> {
-  Future<dynamic>? target;
-
-  @override
-  void initState() {
-    target = getAge(name: "Peter");
-    super.initState();
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         body: Center(
-      child: FutureBuilder<dynamic>(
-          future: target,
-          builder: (context, snapshot) {
+      child: FutureBuilder(
+          future: getActivityFromType(activityType: "Social"),
+          builder: (ctx, snapshot) {
             if (snapshot.connectionState == ConnectionState.done) {
               if (snapshot.hasError) {
-                return Text(
-                  '${snapshot.error} occured',
-                  style: TextStyle(fontSize: 19, color: Colors.white),
+                return Center(
+                  child: Text(
+                    '${snapshot.error} occured',
+                    style: TextStyle(fontSize: 18),
+                  ),
                 );
               } else if (snapshot.hasData) {
-                final data = snapshot.data;
+                final data = snapshot.data as Map;
                 return Container(
                   alignment: Alignment.center,
-                  height: 400,
+                  height: 300,
                   width: 600,
                   color: Color(0xFF12202F),
                   child: Text(
-                    "Predicted age of ${data["Name"]} is ${data["Age"]}",
-                    style: TextStyle(fontSize: 19, color: Colors.white),
+                    '${data["Activity"]}',
+                    style: TextStyle(fontSize: 20, color: Colors.white),
                   ),
                 );
               }
@@ -100,6 +95,7 @@ class _homepageState extends State<homepage> {
     ));
   }
 }
+
 ```
 
 
