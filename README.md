@@ -1,13 +1,12 @@
-# flutter_agify
+# bored
 
-A Flutter package that grabs data from the Agify.io api that can predict your age using your name!
+Unofficial API wrapper for the Bored API written in Dart :] 
 
-**NOTE:** I would like to make it clear that **I don't own the Agify.io api and the only purpose of this package is to make using Agify.io api easy.**
 
 ## API Website
 
-Here is the official API Website of Agify.io -
-https://agify.io/
+Here is the official API Website of the Bored API -\
+https://www.boredapi.com/
 
 ## How To Use
 
