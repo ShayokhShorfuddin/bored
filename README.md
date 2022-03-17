@@ -1,6 +1,6 @@
 # bored
 
-Unofficial API wrapper for the Bored API written in Dart :] 
+Unofficial API wrapper for the Bored API written in Dart  :] 
 
 
 ## API Website
