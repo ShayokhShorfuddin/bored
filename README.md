@@ -108,7 +108,7 @@ class _homepageState extends State<homepage> {
 Here is the output of the code above -
 
 ```dart
-{Activity: Do something nice for someone you care about, Accessibility: 0.1, Type: social, Participants: 1, Price: 0, Link: , Key: 8321894}
+{Activity: Do something nice for someone you care about, Accessibility: 0.1, Type: social, Participants: 1, Price: 0, Link: , Key: 8321894} // Got this when I did print(snapshot.data);
 ```
 
 <img src="https://raw.githubusercontent.com/ShayokhShorfuddin/bored/master/activity.png" />
