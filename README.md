@@ -12,7 +12,7 @@ https://www.boredapi.com/
 
 "bored" package offers you 9 functions to use the Bored API with ease! They are -
 
-`getActivity()`, `getActivityFromKey()`, `getActivityFromType()`, `getActivityFromParticipants()`, ` getActivityFromPrice()`, `getActivityFromPriceRange()`, ` getActivityFromAccessibility()`, `getActivityFromAccessibilityRange()`, ` getCustomizedActivity()`
+`getActivity()`, `getActivityFromKey()`, `getActivityFromType()`, `getActivityFromParticipants()`, ` getActivityFromPrice()`,\ `getActivityFromPriceRange()`, ` getActivityFromAccessibility()`, `getActivityFromAccessibilityRange()`, ` getCustomizedActivity()`
 
 ## Return Types
 
