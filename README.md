@@ -20,9 +20,11 @@ All of the functions will return a **Map** that kind of looks like this...
 
 * If any error occured from the Bored API, the package will throw that error.
 
+## Parameters And Return Types
 
-
-```getActivity() // Simply returns ```
+```getActivity() // Simply returns a random activity. No parameter is required for this function :)```
+```getActivityFromKey() // Requests for an activity associated with the provided key. Parameter "keyValue" is required and must be an integer.```
+```getActivityFromType() // Requests for an activity associated with the provided type. Parameter "activityType" is required and must be an String. Available types are ```
 
 
 
