@@ -12,7 +12,7 @@ https://www.boredapi.com/
 
 "bored" package offers you 9 functions to use the Bored API with ease! They are -
 
-`getActivity()`, `getActivityFromKey()`, `getActivityFromType()`, `getActivityFromParticipants()`, ` getActivityFromPrice()`, `getActivityFromPriceRange()`, ` getActivityFromAccessibility()`, `getActivityFromAccessibilityRange()`, ` getCustomizedActivity()`
+`getActivity()`, `getActivityFromKey()`, `getActivityFromType()`, `getActivityFromParticipants()`, ` getActivityFromPrice()`, `getActivityFromPriceRange()`, ` getActivityFromAccessibility()`, `getActivityFromAccessibilityRange()`, `getCustomizedActivity()`
 
 All of the functions will return a **Map** that kind of looks like this...
 
@@ -29,7 +29,8 @@ All of the functions will return a **Map** that kind of looks like this...
 * ```getActivityFromPrice()``` // Requests for an activity associated with the provided price. Parameter "fixedPrice" is required and must be a double.
 * ```getActivityFromPriceRange()``` // Requests for an activity associated with the provided price range. "minPrice" and "maxPrice" parameters are required and both must be a double.
 * ```getActivityFromAccessibility()``` // Requests for an activity associated with the provided accessibility. Parameter "expectedAccessibility" is required and must be a double.
-* ```getActivityFromAccessibilityRange``` // Requests for an activity associated with the provided accessibility range. "minAccessibility" and " maxAccessibility" parameters are required and both must be a double.
+* ```getActivityFromAccessibilityRange()``` // Requests for an activity associated with the provided accessibility range. "minAccessibility" and " maxAccessibility" parameters are required and both must be a double.
+* ```getCustomizedActivity()``` // This function is useful if you are expecting activities that has specific  
 
 
 ## Code Example
