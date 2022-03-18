@@ -14,9 +14,17 @@ https://www.boredapi.com/
 
 `getActivity()`, `getActivityFromKey()`, `getActivityFromType()`, `getActivityFromParticipants()`, ` getActivityFromPrice()`, `getActivityFromPriceRange()`, ` getActivityFromAccessibility()`, `getActivityFromAccessibilityRange()`, ` getCustomizedActivity()`
 
-## Return Types
+All of the functions will return a **Map** that kind of looks like this...
 
-very soon <3
+```{Activity: An activity here, Accessibility: 0.1, Type: social, Participants: 1, Price: 0, Link: , Key: 123456}```
+
+* If any error occured from the Bored API, the package will throw that error.
+
+
+
+```getActivity() // Simply returns ```
+
+
 
 ## Code Example
 
