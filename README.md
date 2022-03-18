@@ -10,7 +10,9 @@ https://www.boredapi.com/
 
 ## How To Use
 
-very soon :)
+"bored" package offers you 9 functions to use the Bored API with ease! They are - \
+
+`getActivity()`, `getActivityFromKey()`
 
 ## Return Types
 
