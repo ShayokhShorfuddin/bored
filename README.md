@@ -27,7 +27,9 @@ All of the functions will return a **Map** that kind of looks like this...
 * ```getActivityFromType()``` // Requests for an activity associated with the provided type. Parameter "activityType" is required and must be a String. Available types are ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"].
 * ```getActivityFromParticipants()``` // Requests for an activity associated with the provided participant count. Parameter "expectedParticipants" is required and must be an integer.
 * ```getActivityFromPrice()``` // Requests for an activity associated with the provided price. Parameter "fixedPrice" is required and must be a double.
-* ```getActivityFromPriceRange()``` // Requests for an activity associated with the provided price range. "minPrice" and "maxPrice" parameters are required and must be a double.
+* ```getActivityFromPriceRange()``` // Requests for an activity associated with the provided price range. "minPrice" and "maxPrice" parameters are required and both must be a double.
+* ```getActivityFromAccessibility()``` // Requests for an activity associated with the provided accessibility. Parameter "expectedAccessibility" is required and must be a double.
+* ```getActivityFromAccessibilityRange``` // Requests for an activity associated with the provided accessibility range. "minAccessibility" and " maxAccessibility" parameters are required and both must be a double.
 
 
 ## Code Example
