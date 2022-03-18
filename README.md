@@ -30,7 +30,7 @@ All of the functions will return a **Map** that kind of looks like this...
 * ```getActivityFromPriceRange()``` // Requests for an activity associated with the provided price range. "minPrice" and "maxPrice" parameters are required and both must be a double.
 * ```getActivityFromAccessibility()``` // Requests for an activity associated with the provided accessibility. Parameter "expectedAccessibility" is required and must be a double.
 * ```getActivityFromAccessibilityRange()``` // Requests for an activity associated with the provided accessibility range. "minAccessibility" and " maxAccessibility" parameters are required and both must be a double.
-* ```getCustomizedActivity()``` // This function is useful if you are expecting activities that has specific  
+* ```getCustomizedActivity()``` // This function is useful if you are expecting activities with specific requirements. For example, suppose you want activities that has `2 participants` and price range is `0.1 - 0.5`` and the type should be `social`. 
 
 
 ## Code Example
