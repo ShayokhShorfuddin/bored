@@ -32,7 +32,7 @@ All of the functions will return a **Map** that kind of looks like this...
 * ```getActivityFromAccessibilityRange()``` // Requests for an activity associated with the provided accessibility range. "minAccessibility" and " maxAccessibility" parameters are required and both must be a double.
 * ```getCustomizedActivity()``` // This function is useful if you are expecting activities with specific requirements. For example, suppose you want activities that has `2 participants` and price range is `0.1 - 0.5` and the type should be `social`. In that case, simply do - 
 ```dart
-getCustomizedActivity(expectedParticipants: 2, minPrice: 0.1, maxPrice: 0.5, activityType: "Social") // :)
+getCustomizedActivity(expectedParticipants: 2, minPrice: 0.1, maxPrice: 0.5, activityType: "Social") // you are awesome :)
 ```
 
 
