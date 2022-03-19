@@ -38,7 +38,7 @@ getCustomizedActivity(expectedParticipants: 2, minPrice: 0.1, maxPrice: 0.5, act
 
 ## Code Example
 
-A piece of code that uses getActivityFromType() ↓ &#8595;
+A piece of code that uses getActivityFromType() ↓ &#8595; 🠓
 
 ```dart
 
